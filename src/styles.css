@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #222;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 5000px;
+}
+.left_to_right {
+  background-color: #329D23;
+  padding: 15px 10px;
+  margin-left: 30px;
+  position: relative;
+  z-index: 100;
+}
+.left_to_right a,
+.left_to_right i {
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 5px;
+  letter-spacing: 1px;
+}
+.left_to_right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #1936169d;
+  transition: all 0.3s ease-in;
+}
+.left_to_right:hover::before {
+  width: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px
+}
+::-webkit-scrollbar-track{
+    background-color: #444;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 30px;
+    background-color: #329D23;
+}
+.top_to_bottom {
+  background-color: transparent;
+  color: #329D23;
+  padding: 15px 10px;
+  margin-left: 30px;
+  position: relative;
+  z-index: 100;
+}
+.top_to_bottom a {
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 5px;
+  letter-spacing: 1px;
+  color: #329D23;
+}
+.top_to_bottom::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  transition: all 0.3s ease-in;
+}
+.top_to_bottom:hover::before {
+  height: 100%;
+  background-color: #329D23
+}

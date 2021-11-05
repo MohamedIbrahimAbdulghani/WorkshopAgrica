@@ -1,0 +1,64 @@
+.navbar {
+  background-color: white;
+  padding: 20px 50px;
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+ul {
+  margin-left: auto;
+}
+ul li {
+  margin-right: 30px;
+}
+ul li a {
+  font-size: 18px;
+  padding: 15px;
+  color: #234821;
+  position: relative;
+  cursor: pointer;
+}
+ul li a:hover {
+  color: #329D23;
+}
+ul li a::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #329D23;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+ul li a:hover::before {
+  width: 100%;
+}
+button.navbar-toggler i {
+  color: #329D23;
+}
+ul.dropdown-menu {
+  top: 133%;
+}
+
+@media(max-width: 991px) {
+  .navbar {
+    padding: 20px 25px;
+  }
+  button.left_to_right {
+    margin-left: 0;
+  }
+  button.navbar-toggler:focus,
+  button.navbar-toggler:hover {
+    box-shadow: none;
+  }
+  button.navbar-toggler i {
+    font-size: 25px;
+  }
+  ul li a:hover::before {
+    width: 0%
+  }
+
+}

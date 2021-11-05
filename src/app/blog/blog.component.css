@@ -1,0 +1,132 @@
+/* Start Video  */
+section.video {
+  background-image: url("../../assets/images/video-bg.png.webp");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.video button.video {
+  background-color: #329D23;
+  padding: 40px;
+  color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: relative;
+}
+section.video button.video i {
+  font-size: 20px;
+}
+section.video button.video:focus {
+  box-shadow: none;
+  border: 0;
+  outline: 0;
+}
+section.video button.video:before {
+  content: "";
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  background-color: #319d232b;
+  top: -70%;
+  left: -86%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+section.video .modal-dialog {
+  max-width: 900px;
+}
+section.video .modal-content {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+section.video .modal-header {
+  border: 0;
+}
+section.video .modal-header .close {
+  margin: -1rem -1rem -1rem auto;
+  color: white;
+  background-color: transparent;
+  border: 0;
+  font-size: 40px;
+}
+section.video .modal-body iframe {
+  width: 100%;
+  height: 400px;
+}
+/* End Video  */
+
+/* Start Section Tips */
+section.tips {
+  margin-top: 5%;
+}
+section.tips h1 {
+  text-align: center;
+  font-size: 50px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 21px;
+    color: #234821;
+}
+section.tips .info1 {
+  margin-bottom: 2%;
+  background-color: #f3fff2;
+}
+section.tips .image {
+  padding: 15px;
+}
+section.tips .info2 {
+  background-color: #f3fff2;
+}
+section.tips .about {
+  padding: 47px 40px;
+}
+section.tips .about h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #234821;
+}
+section.tips .about p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #285D25;
+  margin-bottom: 30px;
+}
+section.tips .about a {
+  color: #329D23;
+  font-size: 16px;
+  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
+}
+section.tips .about a:hover {
+  letter-spacing: 1px;
+}
+section.tips button.top_to_bottom {
+  width: 200px;
+}
+/* End Section Tips */
+@media(max-width: 758px) {
+  section.tips img {
+    width: 100%;
+  }
+}

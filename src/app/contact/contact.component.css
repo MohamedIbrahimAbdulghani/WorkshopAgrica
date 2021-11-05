@@ -1,0 +1,70 @@
+/* Start Section Contact */
+section.contact {
+  margin-top: 5%;
+  overflow: hidden;
+}
+section.contact .info {
+  padding: 76px 40px 70px 105px;
+}
+section.contact .info h1 {
+  color: #234821;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 21px;
+}
+section.contact .info p {
+  color: #285d25;
+  font-size: 18px;
+  margin-bottom: 33px;
+}
+section.contact .info .top_to_bottom  {
+  width: 60%;
+}
+section.contact .info ul {
+  list-style: none
+}
+section.contact .info ul li {
+  margin-top: 30px;
+  color: #234821;
+  font-size: 18px;
+}
+section.contact .info ul li i {
+  margin-right: 15px
+}
+section.contact .image img {
+  width: 100%;
+  height: 650px;
+}
+/* End Section Contact */
+
+@media(max-width: 425px) {
+  ul {
+    margin-left: -10%;
+  }
+  section.contact .info .top_to_bottom {
+    width: 80%;
+    margin-left: 0%;
+  }
+}
+@media(max-width: 375px) {
+  ul {
+    margin-left: -15%;
+  }
+  section.contact .info .top_to_bottom {
+    width: 95%;
+  }
+}
+@media(max-width: 320px) {
+  section.contact .info h1,
+  section.contact .info p {
+    margin-left: -30%;
+  }
+  ul {
+    margin-left: -50%;
+  }
+  section.contact .info .top_to_bottom {
+    width: 120%;
+    margin-left: -30%;
+  }
+}

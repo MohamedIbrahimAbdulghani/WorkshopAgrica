@@ -1,0 +1,130 @@
+/* Start Section Header  */
+.header .carousel-item img {
+  filter: brightness(0.5);
+  -webkit-filter: brightness(0.5);
+}
+.header .info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 80%;
+}
+.header .info h1 {
+  font-size: 80px;
+  margin-bottom: 40px;
+}
+.header .info p {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.header .info .left_to_right {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 15px 42px;
+  font-size: 18px;
+}
+.header .info .left_to_right::before {
+  background-color: transparent;
+}
+.header .info .left_to_right i {
+  margin-left: 15px;
+  font-size: 13px;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+.header .info .left_to_right:hover i {
+  transform: translateX(5px);
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  -o-transform: translateX(5px);
+}
+.header button.carousel-control-prev,
+.header button.carousel-control-next {
+  width: 4%;
+  height: 13%;
+  position: absolute;
+  top: 43%;
+}
+.header button.carousel-control-prev span.carousel-control-prev-icon {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  height: 100px;
+  width: 50px;
+  background: rgba(255,255,255,0.2);
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
+}
+.header button.carousel-control-next span.carousel-control-next-icon {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  height: 100px;
+  width: 50px;
+  background: rgba(255,255,255,0.2);
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
+}
+.header button.carousel-control-prev span.carousel-control-prev-icon:hover,
+.header button.carousel-control-next span.carousel-control-next-icon:hover {
+  background-color: white;
+}
+.header button.carousel-control-prev span.carousel-control-prev-icon i,
+.header button.carousel-control-next span.carousel-control-next-icon i {
+  font-size: 20px;
+  line-height: 60px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+.header button.carousel-control-prev span.carousel-control-prev-icon:hover i,
+.header button.carousel-control-next span.carousel-control-next-icon:hover i {
+  color: #285D25;
+}
+
+/* End Section Header  */
+@media(max-width: 425px) {
+  .header .info h1 {
+    font-size: 60px;
+  }
+
+}
+@media(max-width: 320px) {
+  .header .info h1 {
+    font-size: 45px;
+  }
+  .header .info p {
+    font-size: 30px;
+  }
+  .header .info .left_to_right {
+    padding: 15px 20px;
+  }
+}

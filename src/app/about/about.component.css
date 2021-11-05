@@ -1,0 +1,30 @@
+
+/*Start Section About*/
+.about {
+  margin-top: 10%;
+}
+.about .image {
+  margin-bottom: 5%;
+}
+.about .info h2{
+  width: 50%;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 21px;
+  color: #234821;
+}
+.about .info p {
+  color: #285D25;
+  font-size: 18px;
+  width: 85%;
+}
+.about .info button {
+  width: 45%;
+}
+/*End Section About*/
+@media(max-width: 425px) {
+  .about .info button {
+    width: 55%;
+  }
+}
